@@ -1,0 +1,75 @@
+html { overflow: hidden; }
+body {
+    background-color: #000000;
+    margin: 0;
+}
+div.container {
+    position: relative;
+    top: 0;
+    left: 0px;
+    width: 1080px;
+    height: 1800px;
+    margin: 0;
+    padding: 0;
+}
+div.content {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+div#tourismvideo {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 1080px;
+    height: 460px;
+    overflow: hidden;
+}
+div#innertourismvideo {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+div#tailynvideo {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 1080px;
+    height: 560px;
+    overflow: hidden;
+}
+div#innertailynvideo {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+div#tailynmodel {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 738px;
+}
+div#tailynmarquee {
+    position: relative;
+    top: -100;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #007F0E;
+    color: #FFFFFF;
+    font-size: 64pt;
+}
+marquee#tailyn {
+    width: 100%;
+}
+div#welcome {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1020px;
+}
