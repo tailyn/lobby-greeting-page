@@ -3,18 +3,14 @@
         <title>Weather</title>
         <script language="JavaScript">
         var num = 1
-        img1 = new Image ()
-        img1.src = "img/bf8a1.jpg";
-        img2 = new Image ()
-        img2.src = "img/bt4b1.jpg";
-        img3 = new Image ()
-        img3.src = "img/st4t2.jpg"; 
+        img = new Image ()
         function slideshow() {
             num += 1
-            if(num == 4) {
+            if(num == 14) {
                 num = 1
             }
-            document.mypic.src = eval("img" + num + ".src")
+            img.src = "img/" + num + ".jpg";
+            document.mypic.src = eval("img.src")
             timer = setTimeout('change_img()', 5000);
         }
         function change_img() {
@@ -30,6 +26,6 @@
         </style>
     </head>
     <body onLoad="slideshow()" bgcolor="#000000">
-        <img name="mypic" src="img/bf8a1.jpg" width="1080px" height="738px" border="0" />
+        <img name="mypic" src="img/1.jpg" width="1080px" height="738px" border="0" />
     </body>
 </html>
